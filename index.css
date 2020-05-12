@@ -159,34 +159,34 @@ p {
     padding: 0 13px;
 }
 
-.ticket-form {
+.form {
     display: inline-block;
     margin-top: 55px;
     width: 315px;
 }
 
-.ticket-form.with-top-notice {
+.form.with-top-notice {
     margin-top: 10px;
 }
 
-.ticket-form-line {
+.form-line {
     display: flex;
     justify-content: space-between;
 }
 
-.ticket-form-line {
+.form-line {
     font-size: 18px;
     line-height: 22px;
     height: 60px;
 }
 
-.ticket-form-line_sel {
+.form-line_sel {
     position: relative;
     text-align: center;
     width: 64px;
 }
 
-.ticket-form-line_info {
+.form-line_info {
     margin: 0;
     padding: 0;
     text-align: left;
@@ -201,7 +201,7 @@ p {
     text-align: left;
 }
 
-.ticket-form-line_op {
+.form-line_op {
     border: 1px solid #D4D4D4;
     color: #D4D4D4;
     width: 18px;
@@ -212,32 +212,32 @@ p {
     cursor: pointer;
 }
 
-.ticket-form-line_op.minus {
+.form-line_op.minus {
     position: absolute;
     left: 0;
 }
 
-.ticket-form-line_op.plus {
+.form-line_op.plus {
     position: absolute;
     right: 0;
 }
 
-.ticket-form-line_val.none {
+.form-line_val.none {
     color: #D4D4D4;
 }
 
-.ticket-form-sum {
+.form-sum {
     display: inline-block;
     border-top: 2px solid #FF473A;
     margin: 30px 0 0 0;
     width: 327px;
 }
 
-.ticket-form-sum-content {
+.form-sum-content {
     padding: 3px 23px;
 }
 
-.ticket-form-ctrl {
+.form-ctrl {
     background-color: #FF473A;
     width: 200px;
     display: inline-block;
@@ -319,11 +319,11 @@ footer {
         margin-right: 0;
     }
 
-    .ticket-form-sum {
+    .form-sum {
         width: 100%;
     }
 
-    .ticket-form-sum-content {
+    .form-sum-content {
         padding: 3px 40px;
     }
 
