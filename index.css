@@ -1,0 +1,330 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body {
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    line-height: 15px;
+    margin: 0;
+}
+
+h2 {
+    font-size: 24px;
+    line-height: 29px;
+    margin: 18px 0 0 0;
+}
+
+p {
+    margin-top: 5px;
+}
+
+.cl1 {
+    color: #FF473A;
+}
+
+.page {
+    width: 900px;
+}
+
+.header-top {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 13px;
+}
+
+.header-logo {
+    font-size: 10px;
+    line-height: 12px;
+}
+
+.header-info {
+    padding-right: 40px;
+}
+
+.header-info-txt {
+    margin: 0 7px 0 0;
+    display: inline-block;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.header-menu-ctrl {
+    width: 18px;
+    position: absolute;
+    right: 10px;
+    top: 19px;
+}
+
+.header-menu-ctrl_line {
+    border-bottom: 2px solid #000;
+    margin-top: 3px;
+}
+
+
+.header-main {
+    margin: 30px 0 50px 0;
+    padding: 0 13px;
+}
+
+.header-pict-holder {
+    position: relative;
+}
+
+.header-pict-block {
+    height: 550px;
+    background: url(img/limone.png) #FFF no-repeat top left;
+    background-size: cover;
+}
+
+.header-pict-txt {
+    position: absolute;
+    left: 13px;
+    bottom: 15px;
+    color: #FFF;
+}
+
+.nav-days-holder{
+    padding: 0px 13px;
+}
+
+.nav-days {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    margin-top: 0;
+}
+
+.nav-days-notice {
+    display: flex;
+    justify-content: center;
+    margin-top: 7px;
+}
+
+.nav-day {
+    display: inline-block;
+    height: 30px;
+    font-size: 18px;
+    line-height: 22px;
+    color: #D4D4D4;
+}
+
+.nav-day:hover {
+    border-bottom: 3px solid #CCC;
+    cursor: pointer;
+    color: #999;
+}
+
+.nav-day.active {
+    border-bottom: 3px solid #FF473A;
+    color: #000;
+}
+
+.nav-day.active:hover {
+    border-bottom-color: #FF473A;
+    cursor: default;
+}
+
+.nav-days-bottom_line {
+    position: absolute;
+    border-bottom: 2px solid #F4F5F2;
+    bottom: 0;
+    width: 100%;
+    z-index: -1;
+}
+
+.nav-day_info {
+    text-align: center;
+}
+
+.notice-holder {
+    padding: 13px;
+}
+
+.notice {
+    color: #979797;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.form-holder {
+    text-align: center;
+    padding: 0 13px;
+}
+
+.ticket-form {
+    display: inline-block;
+    margin-top: 55px;
+    width: 315px;
+}
+
+.ticket-form.with-top-notice {
+    margin-top: 10px;
+}
+
+.ticket-form-line {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ticket-form-line {
+    font-size: 18px;
+    line-height: 22px;
+    height: 60px;
+}
+
+.ticket-form-line_sel {
+    position: relative;
+    text-align: center;
+    width: 64px;
+}
+
+.ticket-form-line_info {
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+
+.form-notice {
+    color: #D4D4D4;
+    font-size: 12px;
+    line-height: 16px;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+
+.ticket-form-line_op {
+    border: 1px solid #D4D4D4;
+    color: #D4D4D4;
+    width: 18px;
+    height: 18px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 18px;
+    cursor: pointer;
+}
+
+.ticket-form-line_op.minus {
+    position: absolute;
+    left: 0;
+}
+
+.ticket-form-line_op.plus {
+    position: absolute;
+    right: 0;
+}
+
+.ticket-form-line_val.none {
+    color: #D4D4D4;
+}
+
+.ticket-form-sum {
+    display: inline-block;
+    border-top: 2px solid #FF473A;
+    margin: 30px 0 0 0;
+    width: 327px;
+}
+
+.ticket-form-sum-content {
+    padding: 3px 23px;
+}
+
+.ticket-form-ctrl {
+    background-color: #FF473A;
+    width: 200px;
+    display: inline-block;
+    padding: 15px;
+    color: #FFF;
+    border: none;
+    box-shadow: 0 4px 5px #AAA;
+}
+
+.button-holder {
+    text-align: center;
+}
+
+footer {
+    padding-bottom: 30px;
+}
+
+.hide-if-media{
+    display: inline-block;
+}
+
+.hide-if-sreen{
+    display: none;
+}
+
+@media screen and (max-width: 900px) {
+    .hide-if-media{
+        display: none;
+    }
+
+    .hide-if-sreen{
+        display: inline-block;
+    }
+
+    .page {
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+    }
+
+    .content {
+        flex: 1 0 auto;
+    }
+
+    footer {
+        flex: 0 0 auto;
+        height: 60px;
+        padding: 0;
+    }
+
+    .notice {
+        font-size: 10px;
+        line-height: 12px;
+        text-align: left;
+    }
+
+    .header-pict-block {
+        height: 250px;
+    }
+
+    .header-info {
+        padding-right: 0;
+    }
+
+    .header-menu-ctrl {
+        position: static;
+        display: inline-block;
+    }
+
+    .header-main {
+        margin: 10px 0;
+    }
+
+    .nav-days {
+        justify-content: space-around;
+    }
+
+    .nav-day {
+        margin-right: 0;
+    }
+
+    .ticket-form-sum {
+        width: 100%;
+    }
+
+    .ticket-form-sum-content {
+        padding: 3px 40px;
+    }
+
+}
